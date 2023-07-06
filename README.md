@@ -1,4 +1,4 @@
-# cpptimer
+># cpptimer
 This is a very simple c++ timer class, which allows you to create two kinds of timer task to execute task periodically. Besides, it provides several functions about time.<br />
 C++17 or higher is required.
 ## Documentation
@@ -28,10 +28,10 @@ Attention:
 2. You must consider exception handling on your own.
 ### time functions
 `getCurrentTimePoint(int)`
-It returns a time point. The parameter is time zone, which can be negative.
+It returns a time point. The parameter is time zone, which can be negative.<br />
 `convertIntToTimePoint`
-It converts an integer to a time point.
+It converts an integer to a time point.<br />
 `getCurrentHour(int)`
-It returns the hour of current time. The parameter is time zone, which can be negative.
+It returns the hour of current time. The parameter is time zone, which can be negative.<br />
 `durationSinceMidnight(int)`
 It returns the duration since the midnight of today. The parameter is time zone, which can be negative.
